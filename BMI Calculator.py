@@ -1,0 +1,12 @@
+
+a=int(input("Yaşınızı giriniz:"))
+b=str(input("İsminizi alalım:"))
+c=float(input("Boyunuzu Giriniz(metre cinsinden):"))
+d=float(input("Kilonuzu alalım(kg cinsinden):"))
+str(input("Hazırsanız başlıyalım"))
+sonuç=((d)/(c*c))
+print(sonuç)
+if sonuç > 25 : print("Götü göbeği salmışsın ")
+if 25>sonuç>18 : print(" ideal vücut")
+elif sonuç == 25 : print("Götü göbeği salmışsın")
+else : print("Kanka rüzgar çıksa uçurucak seni")
